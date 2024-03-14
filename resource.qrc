@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>QSS_IMG/go-down-symbolic.symbolic.png</file>
+        <file>QSS_IMG/go-next-symbolic.symbolic.png</file>
+        <file>QSS_IMG/go-previous-symbolic.symbolic.png</file>
+        <file>QSS_IMG/go-up-symbolic.symbolic.png</file>
+        <file>QSS_IMG/object-select-symbolic.symbolic.png</file>
+        <file>ElegantDark.qss</file>
+        <file>QSS_IMG/check.png</file>
+        <file>QSS.git/trunk/AMOLED.qss</file>
+        <file>QSS.git/trunk/Aqua.qss</file>
+        <file>QSS.git/trunk/ConsoleStyle.qss</file>
+        <file>QSS.git/trunk/ElegantDark.qss</file>
+        <file>QSS.git/trunk/MacOS.qss</file>
+        <file>QSS.git/trunk/ManjaroMix.qss</file>
+        <file>QSS.git/trunk/MaterialDark.qss</file>
+        <file>QSS.git/trunk/NeonButtons.qss</file>
+        <file>QSS.git/trunk/Ubuntu.qss</file>
+        <file>QSS_IMG/unchecked1.jpg</file>
+        <file>QSS_IMG/unchecked2.jpg</file>
+        <file>myappico.ico</file>
+        <file>QSS_IMG/myappico.ico</file>
+        <file>QSS_IMG/unchecked1.png</file>
+        <file>QSS_IMG/checked.png</file>
+        <file>QSS_IMG/0.png</file>
+        <file>QSS_IMG/1.png</file>
+    </qresource>
+</RCC>

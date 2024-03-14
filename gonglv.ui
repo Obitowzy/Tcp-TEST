@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gonglv</class>
+ <widget class="QWidget" name="gonglv">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>392</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>491</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_9" stretch="2,5,2,5">
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>471</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="2,3,3,3,3">
+        <item>
+         <widget class="QLabel" name="label_34">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>第一组(1,2)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_32">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>有功功率P</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_35">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>无功功率Q</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_36">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>功率因数cosΦ</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_37">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>视在功率S</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_1" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>1</x>
+         <y>0</y>
+         <width>461</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,3,3,3,3">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>A相</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>B相</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>C相</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>∑ABC</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_1">
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_1_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_1_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_1_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_1_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_2_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_2_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_2_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_2_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_3_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_3_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_3_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_3_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_4_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_4_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_4_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit1_4_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="layoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>471</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="2,3,3,3,3">
+        <item>
+         <widget class="QLabel" name="label_38">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>第二组(3,4)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_39">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>有功功率P</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_40">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>无功功率Q</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_41">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>功率因数cosΦ</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_42">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>12</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    transform: rotate(90deg);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>视在功率S</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <widget class="QWidget" name="layoutWidget_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>461</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="2,3,3,3,3">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>X相</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Y相</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_11">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Z相</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_12">
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>∑XYZ</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_1_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_1_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_1_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_1_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_2_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_2_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_2_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_2_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_3_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_3_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_3_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_3_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_4_1">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_4_2">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_4_3">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit2_4_4">
+            <property name="text">
+             <string>100.0000</string>
+            </property>
+            <property name="maxLength">
+             <number>9</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

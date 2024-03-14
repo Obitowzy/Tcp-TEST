@@ -1,0 +1,4314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signal_ui</class>
+ <widget class="QMainWindow" name="signal_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1127</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="CentralWidgeta">
+   <widget class="QWidget" name="widget_1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>577</width>
+      <height>536</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,0,0,0" columnstretch="0">
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>55</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QWidget" name="widget_1_1" native="true">
+       <layout class="QGridLayout" name="gridLayout" rowstretch="1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+        <property name="leftMargin">
+         <number>5</number>
+        </property>
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <property name="rightMargin">
+         <number>5</number>
+        </property>
+        <property name="bottomMargin">
+         <number>5</number>
+        </property>
+        <item row="12" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_11">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="1">
+         <widget class="QLabel" name="label_11">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QLineEdit" name="lineEdit_5_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="0">
+         <widget class="QLineEdit" name="lineEdit1_13">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道13</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="3">
+         <widget class="QLineEdit" name="lineEdit_14_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLineEdit" name="lineEdit_1_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="3">
+         <widget class="QLineEdit" name="lineEdit_7_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_1">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="3">
+         <widget class="QLineEdit" name="lineEdit_10_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="2">
+         <widget class="QLineEdit" name="lineEdit_7_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QLineEdit" name="lineEdit_4_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0">
+         <widget class="QLineEdit" name="lineEdit1_8">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道8</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="2">
+         <widget class="QLineEdit" name="lineEdit_11_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QLineEdit" name="lineEdit_4_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_13">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="3">
+         <widget class="QLineEdit" name="lineEdit_12_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLineEdit" name="lineEdit1_1">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道1</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::VisualMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_15">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="1">
+         <widget class="QLabel" name="label_12">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="2">
+         <widget class="QLineEdit" name="lineEdit_15_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLabel" name="label_42">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>有效值</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="0">
+         <widget class="QLineEdit" name="lineEdit1_16">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道16</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="2">
+         <widget class="QLineEdit" name="lineEdit_12_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="1">
+         <widget class="QLabel" name="label_9">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="0">
+         <widget class="QLineEdit" name="lineEdit1_14">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道14</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLabel" name="label_5">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QLabel" name="label_20">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QLineEdit" name="lineEdit_3_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0">
+         <widget class="QLineEdit" name="lineEdit1_11">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道11</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_16">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="3">
+         <widget class="QLineEdit" name="lineEdit_5_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="2">
+         <widget class="QLineEdit" name="lineEdit_16_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4">
+         <widget class="QComboBox" name="comboBox_1">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLineEdit" name="lineEdit_2_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="3">
+         <widget class="QLineEdit" name="lineEdit_9_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_14">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="QLabel" name="label_8">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="2">
+         <widget class="QLineEdit" name="lineEdit_13_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLineEdit" name="lineEdit1_3">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道3</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="0">
+         <widget class="QLineEdit" name="lineEdit1_15">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道15</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLineEdit" name="lineEdit1_4">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道4</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLineEdit" name="lineEdit1_5">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道5</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLineEdit" name="lineEdit1_10">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道10</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLabel" name="label_6">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_12">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1">
+         <widget class="QLabel" name="label_21">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLineEdit" name="lineEdit1_2">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>通道2</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="3">
+         <widget class="QLineEdit" name="lineEdit_16_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QLabel" name="label_38">
+          <property name="text">
+           <string>互感变比</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="2">
+         <widget class="QLineEdit" name="lineEdit_8_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="3">
+         <widget class="QLineEdit" name="lineEdit_6_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="1">
+         <widget class="QLabel" name="label_22">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0">
+         <widget class="QLineEdit" name="lineEdit1_9">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道9</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QLineEdit" name="lineEdit_3_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="1">
+         <widget class="QLabel" name="label_23">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1">
+         <widget class="QLabel" name="label_7">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="3">
+         <widget class="QLineEdit" name="lineEdit_11_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QLineEdit" name="lineEdit_2_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="minimum">
+           <double>0.800000000000000</double>
+          </property>
+          <property name="maximum">
+           <double>1.200000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.001000000000000</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="2">
+         <widget class="QLineEdit" name="lineEdit_9_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="3">
+         <widget class="QLineEdit" name="lineEdit_15_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="2">
+         <widget class="QLineEdit" name="lineEdit_6_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLineEdit" name="lineEdit1_12">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道12</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QLabel" name="label_39">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>相位</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="3">
+         <widget class="QLineEdit" name="lineEdit_13_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="2">
+         <widget class="QLineEdit" name="lineEdit_14_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1">
+         <widget class="QLabel" name="label_10">
+          <property name="maximumSize">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLineEdit" name="lineEdit1_7">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道7</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="QLabel" name="label_19">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>精校系数</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="3">
+         <widget class="QLineEdit" name="lineEdit_8_2">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLineEdit" name="lineEdit_1_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="2">
+         <widget class="QLineEdit" name="lineEdit_10_1">
+          <property name="focusPolicy">
+           <enum>Qt::WheelFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLineEdit" name="lineEdit1_6">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>通道6</string>
+          </property>
+          <property name="maxLength">
+           <number>5</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="cursorMoveStyle">
+           <enum>Qt::LogicalMoveStyle</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4">
+         <widget class="QComboBox" name="comboBox_2">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="4" column="4">
+         <widget class="QComboBox" name="comboBox_3">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="5" column="4">
+         <widget class="QComboBox" name="comboBox_4">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="6" column="4">
+         <widget class="QComboBox" name="comboBox_5">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="7" column="4">
+         <widget class="QComboBox" name="comboBox_6">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="8" column="4">
+         <widget class="QComboBox" name="comboBox_7">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="9" column="4">
+         <widget class="QComboBox" name="comboBox_8">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="10" column="4">
+         <widget class="QComboBox" name="comboBox_9">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="11" column="4">
+         <widget class="QComboBox" name="comboBox_10">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="12" column="4">
+         <widget class="QComboBox" name="comboBox_11">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="13" column="4">
+         <widget class="QComboBox" name="comboBox_12">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="14" column="4">
+         <widget class="QComboBox" name="comboBox_13">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="15" column="4">
+         <widget class="QComboBox" name="comboBox_14">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="16" column="4">
+         <widget class="QComboBox" name="comboBox_15">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="17" column="4">
+         <widget class="QComboBox" name="comboBox_16">
+          <item>
+           <property name="text">
+            <string>TTAP5A-D(5A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAP1A-D(1A：0.23Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM5A-B(5A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTAM1A-B(1A：2.917Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV100-B(100V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TTV200-B(200V：4Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT57.7V(57.7V：3.5Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPPT300V(300V：2.333Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT100A(5A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JPCT20A(1A：0.35Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH150(5A：0.167Vrms)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JLH30(1A：0.167Vrms)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="2,5,0,3,3">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_37">
+         <property name="text">
+          <string>信号频率(hz)：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="frequency">
+         <property name="maxLength">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="bianbi">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>自定义变比</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="sendwave">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>信号下发</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="loadwave">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>停止</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>150</y>
+      <width>471</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>相分量</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>线分量</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>序分量</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>功率</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>471</width>
+       <height>381</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>0</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>1</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_1">
+        <property name="maximumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_43">
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="maximumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_44">
+        <property name="text">
+         <string>3</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="maximumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_45">
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="maximumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_46">
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="maximumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>30</y>
+      <width>502</width>
+      <height>108</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>分组1：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" colspan="2">
+      <widget class="QLabel" name="label_24">
+       <property name="text">
+        <string>分组2：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4" colspan="2">
+      <widget class="QLabel" name="label_27">
+       <property name="text">
+        <string>分组3：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6" colspan="2">
+      <widget class="QLabel" name="label_31">
+       <property name="text">
+        <string>分组4：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8" colspan="2">
+      <widget class="QLabel" name="label_35">
+       <property name="text">
+        <string>分组5：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>A:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="comboBox_1A">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>A:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QComboBox" name="comboBox_2A">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="label_28">
+       <property name="text">
+        <string>A:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QComboBox" name="comboBox_3A">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="label_32">
+       <property name="text">
+        <string>A:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QComboBox" name="comboBox_4A">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="8">
+      <widget class="QLabel" name="label_36">
+       <property name="text">
+        <string>A:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="9">
+      <widget class="QComboBox" name="comboBox_5A">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>B:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="comboBox_1B">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_25">
+       <property name="text">
+        <string>B:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QComboBox" name="comboBox_2B">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLabel" name="label_29">
+       <property name="text">
+        <string>B:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QComboBox" name="comboBox_3B">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLabel" name="label_33">
+       <property name="text">
+        <string>B:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QComboBox" name="comboBox_4B">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="8">
+      <widget class="QLabel" name="label_40">
+       <property name="text">
+        <string>B:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <widget class="QComboBox" name="comboBox_5B">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>C:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="comboBox_1C">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="label_26">
+       <property name="text">
+        <string>C:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QComboBox" name="comboBox_2C">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLabel" name="label_30">
+       <property name="text">
+        <string>C:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QComboBox" name="comboBox_3C">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLabel" name="label_34">
+       <property name="text">
+        <string>C:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QComboBox" name="comboBox_4C">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="8">
+      <widget class="QLabel" name="label_41">
+       <property name="text">
+        <string>C:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="9">
+      <widget class="QComboBox" name="comboBox_5C">
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="minimumContentsLength">
+        <number>0</number>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>10</width>
+         <height>16</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string> 1 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 2 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 3 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 4 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 5 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 6 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 7 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 8 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 9 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 10 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 11 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 12 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 13 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 14 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 15 通道</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string> 16 通道</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="bar1">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
